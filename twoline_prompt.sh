@@ -1,8 +1,7 @@
 # A two-line colored Bash prompt (PS1) with Git branch and a line decoration
 # which adjusts automatically to the width of the terminal.
-# Recognizes and shows Git, SVN and Fossil branch/revision.
-# Screenshot: http://img194.imageshack.us/img194/2154/twolineprompt.png
-# Michal Kottman, 2012
+# Recognizes and shows Git, SVN, Mercurial, and Fossil branch/revision.
+# It supports iTerm Prompt Mark.
 
 # color names for readibility
 reset="\[$(tput sgr0)\]"
